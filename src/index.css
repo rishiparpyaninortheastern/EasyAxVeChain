@@ -5,10 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(-135deg, white, #50e0ff);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    background-color: black;
+    /* background: linear-gradient(white, #50e0ff); */
+
 }

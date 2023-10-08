@@ -1,0 +1,42 @@
+export const merchandise = [
+  {
+    id_number: 101,
+    name: "Eco-friendly T-shirt",
+    counts: 100,
+    price: 20.99,
+    rawmaterials: ["Organic Cotton", "Natural Dyes"],
+    image_key: "ecofriendlyshirt",
+  },
+  {
+    id_number: 102,
+    name: "Reusable Water Bottle",
+    counts: 150,
+    price: 15.49,
+    rawmaterials: ["Stainless Steel", "Silicone"],
+    image_key: "waterbottle",
+  },
+  {
+    id_number: 103,
+    name: "Bamboo Toothbrush",
+    counts: 300,
+    price: 4.99,
+    rawmaterials: ["Bamboo", "Nylon Bristles"],
+    image_key: "toothbrush",
+  },
+  {
+    id_number: 104,
+    name: "Solar-powered Lantern",
+    counts: 80,
+    price: 24.99,
+    rawmaterials: ["Plastic", "Solar Panel", "LED"],
+    image_key: "lantern",
+  },
+  {
+    id_number: 105,
+    name: "Organic Canvas Bag",
+    counts: 200,
+    price: 10.99,
+    rawmaterials: ["Organic Cotton"],
+    image_key: "bag",
+  },
+];
