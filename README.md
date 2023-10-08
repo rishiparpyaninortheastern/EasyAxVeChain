@@ -3,22 +3,33 @@
  
 <b>EcoTraveler: Sustainable Travel Choices 🌍</b></br>
 EcoTraveler champions the cause of sustainable tourism. By bridging eco-conscious travelers with environmentally responsible accommodations, we aim to reshape the future of travel — one sustainable choice at a time.
-<b></br>
+</br>
 Table of Contents</br>
+</br>
 Problem Statement</br>
+</br>
 Vision</br>
+</br>
 Solution</br>
+</br>
 Features</br>
+</br>
 Facts</br>
+</br>
 Technologies Used</br>
+</br>
 Getting Started</br>
+</br>
 Contribute</br>
+</br>
 License</br>
+</br>
 Team</br>
+</br>
 Connect with Us</br>
 </b>
 Problem Statement 🚫</br>
-
+</br>
 As the global travel industry burgeons, its environmental impact remains a significant concern. Many travelers wish to reduce their carbon footprint but lack the resources and knowledge to make informed choices. Existing platforms don't prioritize or reward eco-friendly decisions.
 <b></br>
 Vision 🌱
@@ -26,6 +37,7 @@ Vision 🌱
 Our vision is a world where every journey taken leaves a minimal carbon footprint. EcoTraveler aims to be at the forefront of this eco-revolution, facilitating sustainable travel and fostering a global community of eco-conscious travelers.
 
 Solution 💡</br>
+</br>
 
 EcoTraveler provides a comprehensive platform with the following offerings:
 
@@ -46,6 +58,7 @@ If global travelers chose eco-accommodations just once in every ten trips, the r
 (Source: Ensure you have actual data sources to back these facts.)
 
 Technologies Used 💻</br>
+</br>
 Blockchain: VeChain Thor - Ensures transparent and tamper-proof eco-scores and carbon-credit transactions.</br>
 Backend: Node.js, Express.js - Robust server handling and API management.</br>
 Frontend: React.js - Seamless and responsive user interface.</br>
