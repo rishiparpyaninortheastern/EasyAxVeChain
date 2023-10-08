@@ -54,11 +54,17 @@ Database: MongoDB - Efficient data storage and retrieval.</br>
 <b>Getting Started 🚀</b></br>
 </br>
 Clone the repo:</br>
-```git clone https://github.com/rishiparpyaninortheastern/EasyAxVeChain.git```</br>
-Install dependencies:</br>
-```cd EcoTraveler && npm install```</br>
-Launch the dApp:</br>
-```npm start```</br>
+```
+git clone https://github.com/rishiparpyaninortheastern/EasyAxVeChain.git
+```
+Install dependencies:
+```
+cd EcoTraveler && npm install
+```
+Launch the dApp:
+```
+npm start
+```
 </br>
 <b>Contribute 🤝</b></br>
 
