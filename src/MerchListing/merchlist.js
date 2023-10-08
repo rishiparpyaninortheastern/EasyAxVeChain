@@ -91,6 +91,7 @@ export default function merchListing({ merch }) {
             <Button variant="contained" color="primary">
               Check Availability
             </Button>
+            <span>${merch.price}</span>
           </Grid>
         </Grid>
       </CardContent>

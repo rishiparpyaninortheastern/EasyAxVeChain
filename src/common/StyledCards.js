@@ -11,6 +11,8 @@ const StyledCard = styled(Card)`
   &:hover {
     transform: scale(1.1);
   }
+    opacity: ${(props) => (props.disabled ? '0.5' : '1')}; // Reducing opacity for disabled cards
+  pointer-events: ${(props) => (props.disabled ? 'none' : 'auto')}; // Preventing clicks on disabled cards
 `;
 
 const ImageContainer = styled.div`
@@ -26,7 +28,7 @@ const ImageContainer = styled.div`
 
 function ThreeDCard(props) {
   return (
-    <StyledCard>
+    <StyledCard disabled={props.disabled}>
       <CardContent>
         <Typography variant="h5" component="div">
           {props.title}
@@ -39,7 +41,7 @@ function ThreeDCard(props) {
   );
 }
 
-function StyledCards({ cardsData }) {
+function StyledCards({ cardsData, myBadgeLevel }) {
   return (
     <div
       style={{
@@ -50,7 +52,12 @@ function StyledCards({ cardsData }) {
       }}
     >
       {cardsData.map((card, index) => (
-        <ThreeDCard key={index} title={card.title} image={card.image} />
+        <ThreeDCard
+          key={index}
+          title={card.title}
+          image={card.image}
+          disabled={index+1 > myBadgeLevel}
+        />
       ))}
     </div>
   );

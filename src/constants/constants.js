@@ -13,6 +13,7 @@ export const properties = [
     water_consumption_gallons: 200,
     score_out_of_5: 1.55,
     image_key: "brickbaston",
+    price: "148.2K VET",
   },
   {
     property_id: 2,
@@ -23,6 +24,7 @@ export const properties = [
     water_consumption_gallons: 300,
     score_out_of_5: 1.75,
     image_key: "urbanvillas",
+    price: "150.2K VET",
   },
   {
     property_id: 3,
@@ -33,6 +35,7 @@ export const properties = [
     water_consumption_gallons: 100,
     score_out_of_5: 1.45,
     image_key: "brickbaston",
+    price: "142.8K VET",
   },
   {
     property_id: 4,
@@ -43,6 +46,7 @@ export const properties = [
     water_consumption_gallons: 400,
     score_out_of_5: 2.0,
     image_key: "glassglow",
+    price: "149K VET",
   },
   {
     property_id: 5,
@@ -53,6 +57,7 @@ export const properties = [
     water_consumption_gallons: 150,
     score_out_of_5: 1.5,
     image_key: "conceretecastle",
+    price: "139.5K VET",
   },
   {
     property_id: 6,
@@ -63,6 +68,7 @@ export const properties = [
     water_consumption_gallons: 100,
     score_out_of_5: 4.2,
     image_key: "ecoheaven",
+    price: "60K VET",
   },
   {
     property_id: 7,
@@ -73,6 +79,7 @@ export const properties = [
     water_consumption_gallons: 90,
     score_out_of_5: 4.5,
     image_key: "ecofriendly",
+    price: "64K VET",
   },
   {
     property_id: 8,
@@ -83,5 +90,6 @@ export const properties = [
     water_consumption_gallons: 80,
     score_out_of_5: 4.8,
     image_key: "earthlyadobe",
+    price: "60K VET",
   },
 ];

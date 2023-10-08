@@ -1,11 +1,11 @@
-// import React, { useState } from "react";
+import { useContext, useEffect } from "react";
 // import { Card, CardContent, Typography, Icon } from "@mui/material";
 import styled from "@emotion/styled";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { Button } from "@mui/material";
 import { Share as ShareIcon } from "@mui/icons-material";
-
+import UserContext from "../userContext";
 import * as React from "react";
 import { useState } from "react";
 import {
@@ -149,6 +149,8 @@ function getColorBasedOnScore(score) {
 
 export default function Listing({ listing }) {
   console.log(getImage(listing.image_key));
+  const { userId, setUserId, contract, setContract } = useContext(UserContext);
+
   const [showDetails, setShowDetails] = useState(false);
   console.log(listing);
   return (
@@ -170,7 +172,7 @@ export default function Listing({ listing }) {
       <CardContent sx={{ flex: "1", padding: "16px" }}>
         <Grid container spacing={2}>
           <Grid item xs={9}>
-            <Typography gutterBottom variant="h8"  component="span">
+            <Typography gutterBottom variant="h8" component="span">
               {listing.property_name}{" "}
             </Typography>
           </Grid>
@@ -190,10 +192,25 @@ export default function Listing({ listing }) {
             </Typography>
           </Grid>
 
-          <Grid item xs={8}>
-            <Button variant="contained" color="primary">
-              Check Availability
-            </Button>
+          <Grid container item xs={8} alignItems="center" spacing={2}>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => {
+                  contract.bookListing(
+                    listing.property_id,
+                    userId,
+                    listing.price
+                  );
+                }}
+              >
+                Book this
+              </Button>
+            </Grid>
+            <Grid item>
+              <span>{listing.price}</span>
+            </Grid>
           </Grid>
         </Grid>
       </CardContent>

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -15,8 +15,10 @@ import earthprotector from "../assets/earthprotector.png";
 import greenexplorer from "../assets/greenexplorer.png";
 import ambassdor from "../assets/ambassdor.png";
 
+
 const UserProfile = () => {
-  const { userId, setUserId } = useContext(UserContext);
+  const { userId, setUserId, contract,setContract } = useContext(UserContext);
+  const [batchLevel, setbatchLevel] = useState(0);
   const navigate = useNavigate();
   if (userId === null) {
     navigate("/");
@@ -31,6 +33,11 @@ const UserProfile = () => {
       }
     );
   };
+
+  useEffect(() => {
+    let current_badge_level = contract.myBadgeLevel(userId);
+    setbatchLevel(current_badge_level);
+  }, [batchLevel]);
 
   const location = useLocation();
   const user = location.state.user;
@@ -89,7 +96,7 @@ const UserProfile = () => {
           </Paper>
         </Container>
 
-        <StyledCards cardsData={cardsData} />
+        <StyledCards cardsData={cardsData} myBadgeLevel={batchLevel} />
       </Box>
     </div>
   );
