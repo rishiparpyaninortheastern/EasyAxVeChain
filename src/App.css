@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e8f5e9; /* Soft green background, represents eco-friendliness */
+  color: #333; /* Dark text for good contrast */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Additional styling for depth and eco-feeling */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
