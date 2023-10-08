@@ -5,29 +5,29 @@
 EcoTraveler champions the cause of sustainable tourism. By bridging eco-conscious travelers with environmentally responsible accommodations, we aim to reshape the future of travel — one sustainable choice at a time.
 </br>
 Table of Contents</br>
-</br>
+
 Problem Statement</br>
-</br>
+
 Vision</br>
-</br>
+
 Solution</br>
-</br>
+
 Features</br>
-</br>
+
 Facts</br>
-</br>
+
 Technologies Used</br>
-</br>
+
 Getting Started</br>
-</br>
+
 Contribute</br>
-</br>
+
 License</br>
-</br>
+
 Team</br>
-</br>
+
 Connect with Us</br>
-</b>
+
 Problem Statement 🚫</br>
 </br>
 As the global travel industry burgeons, its environmental impact remains a significant concern. Many travelers wish to reduce their carbon footprint but lack the resources and knowledge to make informed choices. Existing platforms don't prioritize or reward eco-friendly decisions.
