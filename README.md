@@ -16,9 +16,9 @@ Vision 🌱
 Our vision is a world where every journey taken leaves a minimal carbon footprint. EcoTraveler aims to be at the forefront of this eco-revolution, facilitating sustainable travel and fostering a global community of eco-conscious travelers.
 <b></br>
 Solution 💡</b></br>
-</br>
 
-EcoTraveler provides a comprehensive platform with the following offerings:
+
+EcoTraveler provides a comprehensive platform with the following offerings:</br>
 
 Eco-Friendly Listings: Curated accommodations and travel choices with transparent "Eco Scores."</br>
 Carbon-Credit Rewards: Incentives for eco-friendly choices, redeemable for sustainable goods.</br>
