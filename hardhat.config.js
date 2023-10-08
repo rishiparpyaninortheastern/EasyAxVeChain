@@ -1,15 +1,22 @@
 require("@nomicfoundation/hardhat-toolbox");
-const { VECHAIN_URL_SOLO } = require("@vechain/hardhat-vechain");
+require("@vechain/hardhat-vechain");
 require("@vechain/hardhat-ethers");
+require('@openzeppelin/hardhat-upgrades');
 
 module.exports = {
   solidity: {
-    version: "0.8.17",
+    version: "0.8.20",
   },
   networks: {
     vechain: {
-      url: VECHAIN_URL_SOLO,
-    },
+      url: "https://vethor-node-test.vechaindev.com",
+      accounts: {
+        mnemonic: "mad soldier goose umbrella pottery select latin prosper exist correct purchase tunnel",
+        count: 10,
+      },
+      restful: true,
+      gas: 10000000
+    }
   },
   paths: {
     artifacts: "src/artifacts",

@@ -3,6 +3,12 @@ import UserProfile from "./userProfile.js/userProfile";
 import Header from "./header/header";
 import { useState } from "react";
 import Connex from "@vechain/connex";
+import * as thor from '@vechain/web3-providers-connex'
+import { ethers } from 'ethers'
+//import ABI
+import Ecotraveler from './artifacts/contracts/EcoTraveler.sol/EcoTraveler.json';
+
+const ecoAddress = "0x250C761B43Adb9e18096011b4a880eE975737bFA";
 
 const user = {
   name: "John Doe",
@@ -17,9 +23,20 @@ function App() {
   const [connected, setConnected] = useState(false);
   const connectWallet = async () => {
     const connex = new Connex({
-      node: "https://testnet.weblocks.net",
+      node: "https://node-testnet.vechain.energy/",
+      //https://testnet.weblocks.net
       network: "test",
     });
+  
+  async function test(){
+    const provider = thor.ethers.modifyProvider(
+      new ethers.provider.Web3Provider(
+        new thor.Provider({ connex })
+      )
+    )
+    const VTHOContract = new ethers.Contract(ecoAddress, Ecotraveler.abi, provider);
+    console.log(VTHOContract.ownerAddress);
+  }
 
     const wallet = await connex.vendor
       .sign("cert", {
