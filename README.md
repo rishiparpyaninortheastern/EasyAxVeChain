@@ -1,18 +1,17 @@
-
-
- 
-<b>EcoTraveler: Sustainable Travel Choices 🌍</b></br>
+<b>
+EcoTraveler: Sustainable Travel Choices 🌍</b></br>
 EcoTraveler champions the cause of sustainable tourism. By bridging eco-conscious travelers with environmentally responsible accommodations, we aim to reshape the future of travel — one sustainable choice at a time.
 </br>
-
 
 <b>
 Problem Statement 🚫</b></br>
 </br>
 As the global travel industry burgeons, its environmental impact remains a significant concern. Many travelers wish to reduce their carbon footprint but lack the resources and knowledge to make informed choices. Existing platforms don't prioritize or reward eco-friendly decisions.
-<b></br>
+<b> 
+</br>
 Vision 🌱
-</b></br>
+</b>
+</br>
 Our vision is a world where every journey taken leaves a minimal carbon footprint. EcoTraveler aims to be at the forefront of this eco-revolution, facilitating sustainable travel and fostering a global community of eco-conscious travelers.
 <b></br>
 Solution 💡</b></br>
